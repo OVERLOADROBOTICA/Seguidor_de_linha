@@ -198,7 +198,7 @@ void followLine() {
 
   // Atribuição da velocidade dos motores.
   int speedRight = (speedBase - PIDValue);
-  int speedLeft = (speedBase + PIDValue);
+  int speedLeft = -(speedBase + PIDValue);
 
   // Checa se as velocidades ultrapassam 255 ou são mensores que 0, corrige caso necessario
   if (speedRight > speedMax) speedRight = speedMax;
@@ -620,3 +620,4 @@ void loop() {
     }
   }
 }
+
