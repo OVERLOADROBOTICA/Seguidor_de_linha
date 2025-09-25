@@ -11,3 +11,11 @@ Especificações:
 - Ponte H TD6612FNG
 - Sensor Frontal - 8 canais - infravermelho
 - 2x Sensor infravermelho lateral - 1 canal
+
+Componentes:
+- Capacitor  10nF            SMD 0805
+- Capacitor  10uF            SMD 0805
+- Indutor    10nH            SMD 0805
+- Resistor   100Ω            SMD 2512
+- Resistor   10KΩ            SMD 2512
+- Chave SPDT SS-12D10-G050   THT
