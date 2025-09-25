@@ -1,21 +1,26 @@
 # Seguidor_de_linha
-Seguidor de linha da overload UTFPR
+Robô Seguidor de linha XRL-08 REBORN
 
-Especificações:
+Módulos:
 
-- Arduino Nano
-- 2x Motor N20 5v 3000 rpm
-- Conversor Buck - Mini 360
-- Modulo Bluetooth Escravo HC06
-- Botão buzzer Led - Chave
-- Ponte H TD6612FNG
-- Sensor Frontal - 8 canais - infravermelho
-- 2x Sensor infravermelho lateral - 1 canal
+- 1x Placa de desenvolvimento Arduino Nano
+- 2x Motor CC N20 com caixa de redução de 3000 rpm
+- 1x Conversor Buck (abaixador de tensão) Mini 360
+- 1x Módulo de comunicação Bluetooth Slave HC06
+- 1x Ponte H TD6612FNG
+- 1x Sensor infravermelho 8 canais 
+- 2x Sensor infravermelho 1 canal
+
 
 Componentes:
-- Capacitor  10nF            SMD 0805
-- Capacitor  10uF            SMD 0805
-- Indutor    10nH            SMD 0805
-- Resistor   100Ω            SMD 2512
-- Resistor   10KΩ            SMD 2512
-- Chave SPDT SS-12D10-G050   THT
+
+- 5x Capacitor  10nF            SMD 0805
+- 7x Capacitor  10uF            SMD 0805
+- 1x Indutor    10nH            SMD 0805
+- 2x Resistor   100Ω            SMD 2512
+- 2x Resistor   10KΩ            SMD 2512
+- 1x Chave SPDT SS-12D10        THT
+- 2x Botão      -               THT 6x6mm
+- 1x Buzzer     Passivo         THT 12mm
+- 1x LED        Verde           THT 5mm
+- 1x LED        Vermelho        THT 5mm
